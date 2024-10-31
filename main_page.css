@@ -1,0 +1,42 @@
+
+/* 全体の背景色を変えたい */
+body {
+    background-color: rgb(104, 100, 100); /*グレーに変更*/
+}
+
+h1 {
+   font-size: 50px;
+   text-align: center; /*文字を真ん中に配置*/
+}
+#test-area {
+    position: relative;
+    width: 80%;
+    height: 200px;/*ボックスの高さ*/
+    border: 1px solid #333;
+    overflow: hidden;
+    margin: 20px auto;
+    background-color: #222222;
+}
+
+#moving-text {
+    position: absolute;
+    font-size: 100px;
+    color : green; 
+    text-align: center;  /*text-alignとpaddingを使用すると文字が真ん中になる*/
+    padding : 30px 0;/*テキストの配置を真ん中にしたいのでpxを手動変更*/
+}  
+    
+
+#next-button {
+    display: none; /* 初めは非表示 */
+}
+
+
+#user-answer {
+   width: 90%;/*見えた文字を入力してねの横幅を変更*/
+   text-align: center;/*見えた文字を入力してね！の文字を真ん中に配置*/
+   padding : 40px 0;/*文字入力の枠の大きさを変更*/
+   margin: 5px auto;/*見えた文字を入力してねのボックスの位置を変更する(上下) */
+   font-size: 80px;
+}
+
