@@ -1,0 +1,33 @@
+/*全体の背景色設定*/
+html body {
+   background-color: rgb(41, 106, 41)
+}
+h1 {
+   font-size: 80px;
+   text-align: center;/*動作視力テストを真ん中に配置*/
+}
+
+/*一番上ブロック要素をインラインブロックにする*/
+.round-button {
+    display: inline-block;
+    width: 350px;/*ボタンの横幅 */
+    height: 100px;/*ボタンの縦幅*/
+    line-height: 100px;/* ボタンの中の文字をボタンの真ん中に合わせる*/
+    border-radius: 40%; /*ボタンの外側の丸み*/
+    background-color: rgb(240, 206, 17);
+    color: black;
+    text-align: center;/*テキスト(文字）を中央ぞろえにする*/
+    font-size: 30px;
+    transition: background-color 0.3s; /*背景色の変化に０．３秒の変化を追加*/
+    font-family: Ku-ku;
+    text-decoration: none; /*下線を無くす*/
+  }
+
+
+.button-container{
+    display: flex;
+    gap: 300px; /*説明書とスタートボタンの距離２つを離す*/
+   justify-content: center;
+   align-items: center;
+   height: 50vh;/*ボタンの位置指定これ触って！！*/
+  }
